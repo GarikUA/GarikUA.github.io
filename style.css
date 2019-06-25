@@ -1,8 +1,13 @@
+html {
+	font-size: 15px;
+}
+
 .logo {
     float: left;
+    margin: 27px;
 }
 .logo img, .menu {
-    padding-left: 620px;
+    /*padding-left: 620px;*/
     height: 100px;
 }
 h1 {
@@ -10,4 +15,19 @@ h1 {
 }
 iframe {
     padding-left: 40px;
+}
+
+ li{
+	display: inline-block;
+	margin: 0 auto;
+	color: none;
+}
+
+header{
+	height: 20vh;
+	background: yellow;
+}
+
+.footer {
+	background: grey;
 }
